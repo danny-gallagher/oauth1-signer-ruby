@@ -18,8 +18,8 @@ jobs:
         ruby-version: 2.7
     - name: Install dependencies
       run: | 
-        wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-$SONAR_SCANNER_VERSION.zip
-        unzip sonar-scanner-cli-$SONAR_SCANNER_VERSION.zip
+        wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.3.0.1492.zip
+        unzip sonar-scanner-cli-3.3.0.1492.zip
         bundle install --jobs=3 --retry=3
     - name: Run tests
       run: |
