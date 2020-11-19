@@ -13,7 +13,7 @@ jobs:
     
     strategy:
       matrix:
-        rvm: [2.4.4, truffleruby-19.3.1, truffleruby, 2.4, 2.5, 2.6, 2.7]
+        rvm: [2.4.4, truffleruby, 2.4, 2.5, 2.6, 2.7]
 
     steps:
     - uses: actions/checkout@v2
